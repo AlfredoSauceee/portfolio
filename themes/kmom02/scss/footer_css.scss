@@ -1,0 +1,19 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid #ccc;
+    background-color: #222;
+    color: #fff;
+    padding: 4rem 6rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}

@@ -1,0 +1,63 @@
+/* Header */
+
+.header, .site-header {
+    display:flex;
+    /*justify-content: space-between;*/
+}
+
+.site-header {
+    padding: 16px 0 16px 16px;
+}
+
+.logo {
+    margin-right: 5%;
+}
+
+/* Title */
+
+.title, img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: #fff;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.site-header {
+    background-color: #333;
+    border-radius: 0% 0% 25px;
+}
+
+.nav ul {
+    background-color: #444;
+    border-radius: 0% 0% 25px;
+}
+
+.nav a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid #fff;
+}
