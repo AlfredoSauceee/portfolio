@@ -499,6 +499,64 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+.page {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.page h1 {
+  grid-column: span 3;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.span1 {
+  grid-column: span 1;
+}
+
+.span2 {
+  grid-column: span 2;
+}
+
+.span3 {
+  grid-column: span 3;
+}
+
+.singletech {
+  display: grid;
+  gap: 1em 1em;
+  grid-template-columns: 30% 60%;
+}
+
+.menu {
+  grid-column: span 1;
+}
+
+.article-tech {
+  grid-column: span 1;
+}
+
+@media (max-width: 600px) {
+  .span1 {
+    grid-column: span 3;
+  }
+  .span2 {
+    grid-column: span 3;
+  }
+  .span3 {
+    grid-column: span 3;
+  }
+  .menu {
+    display: none;
+  }
+  .singletech {
+    grid-template-columns: 100%;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

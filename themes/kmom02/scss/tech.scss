@@ -1,0 +1,62 @@
+.page  {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.page h1 {
+    grid-column: span 3;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.span1 {
+    grid-column: span 1;
+}
+
+.span2 {
+    grid-column: span 2;
+}
+
+.span3 {
+    grid-column: span 3;
+}
+
+.singletech {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: 30% 60%;
+}
+
+.menu {
+    grid-column: span 1;
+}
+
+.article-tech {
+    grid-column: span 1;
+}
+
+@media (max-width: 600px) {
+    .span1 {
+        grid-column: span 3;
+    }
+    
+    .span2 {
+        grid-column: span 3;
+    }
+    
+    .span3 {
+        grid-column: span 3;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .singletech {
+        grid-template-columns: 100%;
+    }
+}
