@@ -6,17 +6,21 @@ body {
     color: #444;
 }
 
+.footertext p{
+    color: #bfbfbf;
+}
+
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    color: #fff;
+    color: $font-alternative-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: #bfbfbf;
+    color: $font-color;
 }
 
 img {
@@ -29,4 +33,14 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.menu a {
+    text-decoration: underline;
+    color: $font-color;
+}
+
+.box a {
+    text-decoration: underline;
+    color: $font-color;
 }

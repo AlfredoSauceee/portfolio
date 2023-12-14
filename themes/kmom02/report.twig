@@ -1,0 +1,28 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="singletech">
+            <div class="menu">
+                <div>
+                    <h1><a href="%base_url%?analysis/01_colors">Colors</a></h1>
+                </div>
+                <div>
+                    <h1><a href="%base_url%?analysis/02_load">Load</a></h1>
+                </div>
+                <div>
+                    <h1><a href="%base_url%?analysis/03_design_principles">Design Principles</a></h1>
+                </div>
+            </div>
+            <div class="article-tech">
+                {{ content }}
+            </div>  
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
