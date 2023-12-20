@@ -11,14 +11,11 @@
 
 .logo {
     margin-right: 5%;
-}
-
-/* Title */
-
-.title, img {
     width: 150px;
     border-radius: 50%;
 }
+
+/* Title */
 
 @media (max-width: 767px) {
     .title, .logo {
