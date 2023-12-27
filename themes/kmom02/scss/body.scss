@@ -22,6 +22,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-image: url($background-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: $background-color;
 }
 
@@ -36,7 +40,7 @@ body {
 /* Main */
 
 .main {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 2rem;
 }
